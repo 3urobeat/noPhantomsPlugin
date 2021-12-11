@@ -1,0 +1,9 @@
+name: noPhantomsPlugin
+version: 1.0
+author: 3urobeat
+main: org.herreurobeat.noPhantomsPlugin.Main
+description: Prevents Phantoms from spawning.
+
+commands:
+  nophantomsinfo:
+    description: What's this? (Help)
