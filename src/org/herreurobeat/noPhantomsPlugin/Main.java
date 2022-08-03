@@ -15,7 +15,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin implements Listener {
 
-    String supportedVersion = "1.16 - 1.18";
+    String supportedVersion = "1.16 - 1.19";
     String pluginVersion = "1.0";
 
     @Override
