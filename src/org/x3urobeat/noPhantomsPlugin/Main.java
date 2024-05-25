@@ -1,4 +1,4 @@
-package org.herreurobeat.noPhantomsPlugin;
+package org.x3urobeat.noPhantomsPlugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameRule;
@@ -15,7 +15,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin implements Listener {
 
-    String supportedVersion = "1.16 - 1.19";
+    String supportedVersion = "1.16 - 1.20";
     String pluginVersion = "1.0";
 
     @Override
@@ -55,7 +55,7 @@ public class Main extends JavaPlugin implements Listener {
                 return; //check gamerule and stop if send command feedback is false
         }
 
-        sender.sendMessage("noPhantomsPlugin by 3urobeat v" + pluginVersion + " \n----\nPrevents Phantoms from spawning.\n----\nhttps://github.com/HerrEurobeat/noPhantomsPlugin");
+        sender.sendMessage("noPhantomsPlugin by 3urobeat v" + pluginVersion + " \n----\nPrevents Phantoms from spawning.\n----\nhttps://github.com/3urobeat/noPhantomsPlugin");
     }
 
 
